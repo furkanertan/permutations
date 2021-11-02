@@ -5,7 +5,6 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
  
-// Java program to generate all permutations of a string
 public class Permutations {
 	static Set<String> result = new HashSet<>();
 	static int maxSibling = 0;
