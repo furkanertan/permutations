@@ -23,7 +23,6 @@ public class Permutations {
  
     private static int maxPermutation(String processed, String nextNumber) {
     	if (nextNumber.length() == 0) {
-        	System.out.println("processed: " + processed);
             result.add(processed);
             if(Integer.valueOf(processed) > maxSibling) {
             	maxSibling = Integer.valueOf(processed);
